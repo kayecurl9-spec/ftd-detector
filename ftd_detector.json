@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-08 20:11:55",
+    "api_calls": {
+      "cache_entries": 10,
+      "api_calls_made": 10,
+      "rate_limit_reached": false
+    },
+    "index_prices": {
+      "btcusdt": 63860.4,
+      "ethusdt": 1696.74,
+      "dogeusdt": 0.08721,
+      "solusdt": 67.4,
+      "xrpusdt": 1.1724
+    }
+  },
+  "market_state": {
+    "combined_state": "RALLY_ATTEMPT",
+    "dual_confirmation": false,
+    "ftd_index": null
+  },
+  "btcusdt": {
+    "state": "RALLY_ATTEMPT",
+    "current_price": 63854.01,
+    "lookback_high": 82210.07,
+    "correction_depth_pct": -22.33,
+    "swing_low": {
+      "date": "2026-06-06",
+      "price": 60884.62,
+      "decline_pct": -25.94,
+      "down_days": 20,
+      "recent_high_date": "2026-05-10",
+      "recent_high_price": 82210.07
+    },
+    "rally_attempt": {
+      "day1_date": "2026-06-07",
+      "current_day_count": 2,
+      "invalidated": false,
+      "invalidation_reason": null
+    }
+  },
+  "ethusdt": {
+    "state": "RALLY_ATTEMPT",
+    "current_price": 1696.74,
+    "lookback_high": 2419.0,
+    "correction_depth_pct": -29.86,
+    "swing_low": {
+      "date": "2026-06-06",
+      "price": 1569.69,
+      "decline_pct": -33.8,
+      "down_days": 20,
+      "recent_high_date": "2026-05-10",
+      "recent_high_price": 2371.27
+    },
+    "rally_attempt": {
+      "day1_date": "2026-06-07",
+      "current_day_count": 2,
+      "invalidated": false,
+      "invalidation_reason": null
+    }
+  },
+  "quality_score": {
+    "total_score": 0,
+    "breakdown": {},
+    "signal": "No FTD",
+    "guidance": "No Follow-Through Day detected. Stay defensive.",
+    "exposure_range": "0-25%"
+  },
+  "post_ftd_distribution": {},
+  "ftd_invalidation": {},
+  "power_trend": {
+    "power_trend": false,
+    "conditions_met": 0,
+    "ema_21": 69682.05,
+    "sma_50": 75647.16,
+    "current_price": 63854.01,
+    "ema_above_sma": false,
+    "sma_50_rising": false,
+    "price_above_21ema": false
+  },
+  "dogeusdt": {
+    "state": "RALLY_ATTEMPT",
+    "current_price": 0.08721,
+    "lookback_high": 0.11546,
+    "correction_depth_pct": -24.47,
+    "swing_low": {
+      "date": "2026-06-05",
+      "price": 0.08148,
+      "decline_pct": -29.43,
+      "down_days": 16,
+      "recent_high_date": "2026-05-14",
+      "recent_high_price": 0.11546
+    },
+    "rally_attempt": {
+      "day1_date": "2026-06-06",
+      "current_day_count": 3,
+      "invalidated": false,
+      "invalidation_reason": null
+    }
+  },
+  "solusdt": {
+    "state": "RALLY_ATTEMPT",
+    "current_price": 67.4,
+    "lookback_high": 97.37,
+    "correction_depth_pct": -30.78,
+    "swing_low": {
+      "date": "2026-06-06",
+      "price": 62.2,
+      "decline_pct": -36.12,
+      "down_days": 20,
+      "recent_high_date": "2026-05-11",
+      "recent_high_price": 97.37
+    },
+    "rally_attempt": {
+      "day1_date": "2026-06-07",
+      "current_day_count": 2,
+      "invalidated": false,
+      "invalidation_reason": null
+    }
+  },
+  "xrpusdt": {
+    "state": "RALLY_ATTEMPT",
+    "current_price": 1.1723,
+    "lookback_high": 1.4852,
+    "correction_depth_pct": -21.07,
+    "swing_low": {
+      "date": "2026-06-06",
+      "price": 1.0934,
+      "decline_pct": -26.38,
+      "down_days": 17,
+      "recent_high_date": "2026-05-14",
+      "recent_high_price": 1.4852
+    },
+    "rally_attempt": {
+      "day1_date": "2026-06-07",
+      "current_day_count": 2,
+      "invalidated": false,
+      "invalidation_reason": null
+    }
+  }
+}
