@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-11 05:17:56 UTC",
+    "generated_at": "2026-06-12 04:46:32 UTC",
     "symbols": [
       "ADAUSDT",
       "AVAXUSDT",
@@ -26,22 +26,8 @@
   },
   "assets": {
     "ADAUSDT": {
-      "current_price": 0.1665,
+      "current_price": 0.1724,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 0.4085,
-          "high": 0.4342,
-          "low": 0.402,
-          "close": 0.4276,
-          "volume": 156866959.4,
-          "quote_volume": 65336412.93517,
-          "trades": 287159,
-          "ma21": 0.501,
-          "ma50": 0.5998,
-          "ma200": 0.7228,
-          "volume_percentile": 34.0
-        },
         {
           "date": "2025-11-25",
           "open": 0.4276,
@@ -2817,31 +2803,33 @@
         {
           "date": "2026-06-11",
           "open": 0.1607,
-          "high": 0.1678,
+          "high": 0.172,
           "low": 0.1607,
-          "close": 0.1665,
-          "volume": 41717771.7,
-          "quote_volume": 6853841.13733,
-          "trades": 30999,
-          "ma21": 0.2075,
+          "close": 0.1707,
+          "volume": 185526549.6,
+          "quote_volume": 30935714.40659,
+          "trades": 131200,
+          "ma21": 0.2077,
           "ma50": 0.2364,
           "ma200": 0.2996,
+          "volume_percentile": 64.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.1707,
+          "high": 0.1736,
+          "low": 0.1688,
+          "close": 0.1723,
+          "volume": 24036049.4,
+          "quote_volume": 4109972.19534,
+          "trades": 18828,
+          "ma21": 0.2044,
+          "ma50": 0.2349,
+          "ma200": 0.2983,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 0.4083,
-          "high": 0.4339,
-          "low": 0.4017,
-          "close": 0.4274,
-          "volume": 662177902.0,
-          "quote_volume": 275696384.5698,
-          "trades": 749996,
-          "taker_buy_base_vol": 336317628.0,
-          "taker_buy_quote_vol": 140051549.876
-        },
         {
           "date": "2025-11-25",
           "open": 0.4274,
@@ -5221,22 +5209,29 @@
         {
           "date": "2026-06-11",
           "open": 0.1605,
-          "high": 0.1677,
+          "high": 0.1719,
           "low": 0.1604,
-          "close": 0.1664,
-          "volume": 273382515.0,
-          "quote_volume": 44889196.8917,
-          "trades": 118345,
-          "taker_buy_base_vol": 148261175.0,
-          "taker_buy_quote_vol": 24345502.8808
+          "close": 0.1706,
+          "volume": 1055502580.0,
+          "quote_volume": 175740201.6068,
+          "trades": 465260,
+          "taker_buy_base_vol": 540002387.0,
+          "taker_buy_quote_vol": 89892287.3506
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.1705,
+          "high": 0.1736,
+          "low": 0.1686,
+          "close": 0.1723,
+          "volume": 164100660.0,
+          "quote_volume": 28039055.5588,
+          "trades": 72369,
+          "taker_buy_base_vol": 84066272.0,
+          "taker_buy_quote_vol": 14363777.4124
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 393996648.0,
-          "open_interest_usdt": 106741256.6788416
-        },
         {
           "date": "2026-05-14",
           "open_interest": 378568924.0,
@@ -5381,16 +5376,14 @@
           "date": "2026-06-11",
           "open_interest": 408924876.0,
           "open_interest_usdt": 65647670.96038224
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 392298181.0,
+          "open_interest_usdt": 66926069.6786
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 65336413.0,
-          "perp_vol_usdt": 275696385.0,
-          "ratio": 0.237,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 48670459.0,
@@ -6779,46 +6772,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 6853841.0,
-          "perp_vol_usdt": 44889197.0,
-          "ratio": 0.153,
+          "spot_vol_usdt": 30935714.0,
+          "perp_vol_usdt": 175740202.0,
+          "ratio": 0.176,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 4109972.0,
+          "perp_vol_usdt": 28039056.0,
+          "ratio": 0.147,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -11.8,
-        "trend_3d_pct": -7.01,
-        "latest_usdt": 65647671.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": -9.98,
+        "trend_3d_pct": 1.81,
+        "latest_usdt": 66926070.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 0.1665,
-        "date": "2026-06-11",
-        "ma21": 0.2075,
+        "close": 0.1723,
+        "date": "2026-06-12",
+        "ma21": 0.2044,
         "above_ma21": false,
-        "ma50": 0.2364,
+        "ma50": 0.2349,
         "above_ma50": false,
-        "ma200": 0.2996,
+        "ma200": 0.2983,
         "above_ma200": false
       }
     },
     "AVAXUSDT": {
-      "current_price": 6.601,
+      "current_price": 6.671,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 13.28,
-          "high": 14.05,
-          "low": 13.16,
-          "close": 13.89,
-          "volume": 3754410.25,
-          "quote_volume": 50914672.9929,
-          "trades": 128475,
-          "ma21": 15.5481,
-          "ma50": 18.9016,
-          "ma200": 22.483,
-          "volume_percentile": 36.0
-        },
         {
           "date": "2025-11-25",
           "open": 13.89,
@@ -9594,31 +9580,33 @@
         {
           "date": "2026-06-11",
           "open": 6.382,
-          "high": 6.64,
+          "high": 6.707,
           "low": 6.381,
-          "close": 6.601,
-          "volume": 545720.06,
-          "quote_volume": 3562757.90629,
-          "trades": 36775,
-          "ma21": 8.1146,
-          "ma50": 8.8911,
-          "ma200": 10.4897,
+          "close": 6.648,
+          "volume": 2399397.53,
+          "quote_volume": 15781875.21914,
+          "trades": 164333,
+          "ma21": 8.1168,
+          "ma50": 8.8921,
+          "ma200": 10.4899,
+          "volume_percentile": 42.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 6.648,
+          "high": 6.69,
+          "low": 6.601,
+          "close": 6.67,
+          "volume": 179000.13,
+          "quote_volume": 1190282.8268,
+          "trades": 11623,
+          "ma21": 7.9985,
+          "ma50": 8.8379,
+          "ma200": 10.4538,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 13.266,
-          "high": 14.037,
-          "low": 13.146,
-          "close": 13.889,
-          "volume": 21047758.0,
-          "quote_volume": 284756333.464,
-          "trades": 671430,
-          "taker_buy_base_vol": 11032930.0,
-          "taker_buy_quote_vol": 149269055.49
-        },
         {
           "date": "2025-11-25",
           "open": 13.888,
@@ -11998,22 +11986,29 @@
         {
           "date": "2026-06-11",
           "open": 6.377,
-          "high": 6.635,
+          "high": 6.705,
           "low": 6.376,
-          "close": 6.595,
-          "volume": 3295797.0,
-          "quote_volume": 21517208.501,
-          "trades": 101631,
-          "taker_buy_base_vol": 1812976.0,
-          "taker_buy_quote_vol": 11844301.418
+          "close": 6.645,
+          "volume": 13442407.0,
+          "quote_volume": 88382110.378,
+          "trades": 431634,
+          "taker_buy_base_vol": 6880400.0,
+          "taker_buy_quote_vol": 45255653.767
+        },
+        {
+          "date": "2026-06-12",
+          "open": 6.645,
+          "high": 6.687,
+          "low": 6.596,
+          "close": 6.666,
+          "volume": 1127641.0,
+          "quote_volume": 7492763.157,
+          "trades": 52561,
+          "taker_buy_base_vol": 555175.0,
+          "taker_buy_quote_vol": 3690580.812
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 8850504.0,
-          "open_interest_usdt": 87000454.32
-        },
         {
           "date": "2026-05-14",
           "open_interest": 8581869.0,
@@ -12158,16 +12153,14 @@
           "date": "2026-06-11",
           "open_interest": 8213411.0,
           "open_interest_usdt": 52392430.83818664
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 8268717.0,
+          "open_interest_usdt": 54937355.748
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 50914673.0,
-          "perp_vol_usdt": 284756333.0,
-          "ratio": 0.179,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 41618084.0,
@@ -13556,46 +13549,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 3562758.0,
-          "perp_vol_usdt": 21517209.0,
-          "ratio": 0.166,
+          "spot_vol_usdt": 15781875.0,
+          "perp_vol_usdt": 88382110.0,
+          "ratio": 0.179,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 1190283.0,
+          "perp_vol_usdt": 7492763.0,
+          "ratio": 0.159,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -14.55,
-        "trend_3d_pct": -5.33,
-        "latest_usdt": 52392431.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": -3.17,
+        "trend_3d_pct": 2.61,
+        "latest_usdt": 54937356.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 6.601,
-        "date": "2026-06-11",
-        "ma21": 8.1146,
+        "close": 6.67,
+        "date": "2026-06-12",
+        "ma21": 7.9985,
         "above_ma21": false,
-        "ma50": 8.8911,
+        "ma50": 8.8379,
         "above_ma50": false,
-        "ma200": 10.4897,
+        "ma200": 10.4538,
         "above_ma200": false
       }
     },
     "BTCUSDT": {
-      "current_price": 62687.49,
+      "current_price": 63739.1,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 86830.0,
-          "high": 89228.0,
-          "low": 85272.0,
-          "close": 88300.01,
-          "volume": 24663.12795,
-          "quote_volume": 2150393686.920318,
-          "trades": 6189156,
-          "ma21": 96206.6157,
-          "ma50": 105499.0746,
-          "ma200": 110109.899,
-          "volume_percentile": 34.0
-        },
         {
           "date": "2025-11-25",
           "open": 88300.01,
@@ -16371,31 +16357,33 @@
         {
           "date": "2026-06-11",
           "open": 61510.99,
-          "high": 62854.0,
+          "high": 63933.02,
           "low": 61510.99,
-          "close": 62686.5,
-          "volume": 3540.73178,
-          "quote_volume": 220467211.501307,
-          "trades": 780960,
-          "ma21": 69151.4238,
-          "ma50": 74743.2416,
-          "ma200": 78039.8049,
+          "close": 63625.99,
+          "volume": 17380.94642,
+          "quote_volume": 1093211866.433885,
+          "trades": 3446803,
+          "ma21": 69196.1614,
+          "ma50": 74762.0314,
+          "ma200": 78044.5024,
+          "volume_percentile": 44.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 63626.0,
+          "high": 63863.98,
+          "low": 63301.53,
+          "close": 63729.98,
+          "volume": 3294.37529,
+          "quote_volume": 209521245.0129626,
+          "trades": 423408,
+          "ma21": 68633.8033,
+          "ma50": 74471.4814,
+          "ma200": 77921.6522,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 86807.6,
-          "high": 89177.3,
-          "low": 85226.4,
-          "close": 88247.1,
-          "volume": 211113.332,
-          "quote_volume": 18390268446.5396,
-          "trades": 5760868,
-          "taker_buy_base_vol": 103430.099,
-          "taker_buy_quote_vol": 9011124358.8684
-        },
         {
           "date": "2025-11-25",
           "open": 88247.1,
@@ -18775,22 +18763,29 @@
         {
           "date": "2026-06-11",
           "open": 61483.6,
-          "high": 62922.0,
+          "high": 63915.3,
           "low": 61483.6,
-          "close": 62661.4,
-          "volume": 36692.999,
-          "quote_volume": 2285042615.3408,
-          "trades": 948695,
-          "taker_buy_base_vol": 19958.428,
-          "taker_buy_quote_vol": 1243278091.2339
+          "close": 63597.9,
+          "volume": 193994.574,
+          "quote_volume": 12203645517.4952,
+          "trades": 4464945,
+          "taker_buy_base_vol": 103587.129,
+          "taker_buy_quote_vol": 6518375446.1642
+        },
+        {
+          "date": "2026-06-12",
+          "open": 63598.0,
+          "high": 63843.2,
+          "low": 63271.6,
+          "close": 63706.5,
+          "volume": 19576.094,
+          "quote_volume": 1244334293.0973,
+          "trades": 518487,
+          "taker_buy_base_vol": 10369.088,
+          "taker_buy_quote_vol": 659176707.2172
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 105490.183,
-          "open_interest_usdt": 8487896434.25866
-        },
         {
           "date": "2026-05-14",
           "open_interest": 104290.446,
@@ -18935,16 +18930,14 @@
           "date": "2026-06-11",
           "open_interest": 99363.017,
           "open_interest_usdt": 6109780512.248925
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 98329.492,
+          "open_interest_usdt": 6253559032.216
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 2150393687.0,
-          "perp_vol_usdt": 18390268447.0,
-          "ratio": 0.117,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 1708989000.0,
@@ -20333,46 +20326,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 220467212.0,
-          "perp_vol_usdt": 2285042615.0,
-          "ratio": 0.096,
+          "spot_vol_usdt": 1093211866.0,
+          "perp_vol_usdt": 12203645517.0,
+          "ratio": 0.09,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 209521245.0,
+          "perp_vol_usdt": 1244334293.0,
+          "ratio": 0.168,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -3.05,
-        "trend_3d_pct": -1.63,
-        "latest_usdt": 6109780512.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": 0.85,
+        "trend_3d_pct": 2.15,
+        "latest_usdt": 6253559032.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 62686.5,
-        "date": "2026-06-11",
-        "ma21": 69151.4238,
+        "close": 63729.98,
+        "date": "2026-06-12",
+        "ma21": 68633.8033,
         "above_ma21": false,
-        "ma50": 74743.2416,
+        "ma50": 74471.4814,
         "above_ma50": false,
-        "ma200": 78039.8049,
+        "ma200": 77921.6522,
         "above_ma200": false
       }
     },
     "DOGEUSDT": {
-      "current_price": 0.08507,
+      "current_price": 0.08673,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 0.145,
-          "high": 0.15397,
-          "low": 0.14279,
-          "close": 0.15181,
-          "volume": 1133652374.0,
-          "quote_volume": 167653300.62482,
-          "trades": 1600326,
-          "ma21": 0.1613,
-          "ma50": 0.1848,
-          "ma200": 0.2081,
-          "volume_percentile": 24.0
-        },
         {
           "date": "2025-11-25",
           "open": 0.1518,
@@ -23148,31 +23134,33 @@
         {
           "date": "2026-06-11",
           "open": 0.08295,
-          "high": 0.08544,
+          "high": 0.08708,
           "low": 0.08295,
-          "close": 0.08508,
-          "volume": 113816849.0,
-          "quote_volume": 9607460.75692,
-          "trades": 109244,
-          "ma21": 0.094,
+          "close": 0.08608,
+          "volume": 572443022.0,
+          "quote_volume": 48852769.51371,
+          "trades": 519077,
+          "ma21": 0.0941,
           "ma50": 0.1015,
           "ma200": 0.1106,
+          "volume_percentile": 20.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.08608,
+          "high": 0.08694,
+          "low": 0.08561,
+          "close": 0.08673,
+          "volume": 77448205.0,
+          "quote_volume": 6678644.26665,
+          "trades": 71757,
+          "ma21": 0.0933,
+          "ma50": 0.1013,
+          "ma200": 0.1102,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 0.14495,
-          "high": 0.15392,
-          "low": 0.14268,
-          "close": 0.15173,
-          "volume": 6715985205.0,
-          "quote_volume": 991503410.58268,
-          "trades": 1977851,
-          "taker_buy_base_vol": 3352189481.0,
-          "taker_buy_quote_vol": 495363902.38995
-        },
         {
           "date": "2025-11-25",
           "open": 0.15174,
@@ -25552,22 +25540,29 @@
         {
           "date": "2026-06-11",
           "open": 0.0829,
-          "high": 0.08543,
+          "high": 0.08706,
           "low": 0.0829,
-          "close": 0.08504,
-          "volume": 780266009.0,
-          "quote_volume": 65797373.67801,
-          "trades": 185572,
-          "taker_buy_base_vol": 447471728.0,
-          "taker_buy_quote_vol": 37748321.48489
+          "close": 0.08603,
+          "volume": 3686578302.0,
+          "quote_volume": 314123811.17482,
+          "trades": 844308,
+          "taker_buy_base_vol": 1960860800.0,
+          "taker_buy_quote_vol": 167123126.85258
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.08603,
+          "high": 0.08691,
+          "low": 0.08556,
+          "close": 0.08669,
+          "volume": 485009331.0,
+          "quote_volume": 41797480.54074,
+          "trades": 127883,
+          "taker_buy_base_vol": 253365952.0,
+          "taker_buy_quote_vol": 21836450.81802
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 3064680725.0,
-          "open_interest_usdt": 337482641.437
-        },
         {
           "date": "2026-05-14",
           "open_interest": 3238178798.0,
@@ -25712,16 +25707,14 @@
           "date": "2026-06-11",
           "open_interest": 1955702284.0,
           "open_interest_usdt": 162169982.06995723
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 1967015909.0,
+          "open_interest_usdt": 169222378.65127
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 167653301.0,
-          "perp_vol_usdt": 991503411.0,
-          "ratio": 0.169,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 140700453.0,
@@ -27110,46 +27103,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 9607461.0,
-          "perp_vol_usdt": 65797374.0,
-          "ratio": 0.146,
+          "spot_vol_usdt": 48852770.0,
+          "perp_vol_usdt": 314123811.0,
+          "ratio": 0.156,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 6678644.0,
+          "perp_vol_usdt": 41797481.0,
+          "ratio": 0.16,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -12.13,
-        "trend_3d_pct": -7.66,
-        "latest_usdt": 162169982.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": 4.41,
+        "trend_3d_pct": -1.25,
+        "latest_usdt": 169222379.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 0.08508,
-        "date": "2026-06-11",
-        "ma21": 0.094,
+        "close": 0.08673,
+        "date": "2026-06-12",
+        "ma21": 0.0933,
         "above_ma21": false,
-        "ma50": 0.1015,
+        "ma50": 0.1013,
         "above_ma50": false,
-        "ma200": 0.1106,
+        "ma200": 0.1102,
         "above_ma200": false
       }
     },
     "ETHUSDT": {
-      "current_price": 1652.59,
+      "current_price": 1679.16,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 2802.16,
-          "high": 2987.0,
-          "low": 2763.0,
-          "close": 2953.38,
-          "volume": 715279.7551,
-          "quote_volume": 2052356496.552595,
-          "trades": 5727108,
-          "ma21": 3179.1167,
-          "ma50": 3661.3296,
-          "ma200": 3508.1435,
-          "volume_percentile": 46.0
-        },
         {
           "date": "2025-11-25",
           "open": 2953.38,
@@ -29925,31 +29911,33 @@
         {
           "date": "2026-06-11",
           "open": 1621.6,
-          "high": 1661.3,
+          "high": 1693.59,
           "low": 1621.6,
-          "close": 1652.58,
-          "volume": 45696.3587,
-          "quote_volume": 75125795.526321,
-          "trades": 650102,
-          "ma21": 1878.4314,
-          "ma50": 2107.4594,
-          "ma200": 2428.1934,
+          "close": 1673.46,
+          "volume": 278507.7204,
+          "quote_volume": 462505814.289749,
+          "trades": 3410263,
+          "ma21": 1879.4257,
+          "ma50": 2107.877,
+          "ma200": 2428.2978,
+          "volume_percentile": 32.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 1673.46,
+          "high": 1682.0,
+          "low": 1660.93,
+          "close": 1679.16,
+          "volume": 25291.5666,
+          "quote_volume": 42288705.13673,
+          "trades": 398405,
+          "ma21": 1861.0119,
+          "ma50": 2094.855,
+          "ma200": 2421.9267,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 2800.74,
-          "high": 2986.98,
-          "low": 2761.38,
-          "close": 2952.19,
-          "volume": 6158375.151,
-          "quote_volume": 17629818981.86079,
-          "trades": 10158684,
-          "taker_buy_base_vol": 3124442.647,
-          "taker_buy_quote_vol": 8946862344.75279
-        },
         {
           "date": "2025-11-25",
           "open": 2952.18,
@@ -32329,22 +32317,29 @@
         {
           "date": "2026-06-11",
           "open": 1620.72,
-          "high": 1662.07,
+          "high": 1693.38,
           "low": 1620.72,
-          "close": 1651.84,
-          "volume": 949154.968,
-          "quote_volume": 1559601618.64215,
-          "trades": 1267877,
-          "taker_buy_base_vol": 508684.067,
-          "taker_buy_quote_vol": 835974180.93051
+          "close": 1672.57,
+          "volume": 5159676.42,
+          "quote_volume": 8557618159.26419,
+          "trades": 6644979,
+          "taker_buy_base_vol": 2643147.344,
+          "taker_buy_quote_vol": 4384657731.60579
+        },
+        {
+          "date": "2026-06-12",
+          "open": 1672.57,
+          "high": 1681.84,
+          "low": 1658.88,
+          "close": 1678.33,
+          "volume": 471746.842,
+          "quote_volume": 788415982.58058,
+          "trades": 781289,
+          "taker_buy_base_vol": 253054.004,
+          "taker_buy_quote_vol": 423066474.70697
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 2230684.379,
-          "open_interest_usdt": 5072363774.888514
-        },
         {
           "date": "2026-05-14",
           "open_interest": 2250064.375,
@@ -32489,16 +32484,14 @@
           "date": "2026-06-11",
           "open_interest": 2295027.036,
           "open_interest_usdt": 3719871923.4689026
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 2310670.423,
+          "open_interest_usdt": 3864734922.69288
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 2052356497.0,
-          "perp_vol_usdt": 17629818982.0,
-          "ratio": 0.116,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 1246454120.0,
@@ -33887,46 +33880,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 75125796.0,
-          "perp_vol_usdt": 1559601619.0,
-          "ratio": 0.048,
+          "spot_vol_usdt": 462505814.0,
+          "perp_vol_usdt": 8557618159.0,
+          "ratio": 0.054,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 42288705.0,
+          "perp_vol_usdt": 788415983.0,
+          "ratio": 0.054,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -6.83,
-        "trend_3d_pct": -2.28,
-        "latest_usdt": 3719871923.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": 2.46,
+        "trend_3d_pct": 4.1,
+        "latest_usdt": 3864734923.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 1652.58,
-        "date": "2026-06-11",
-        "ma21": 1878.4314,
+        "close": 1679.16,
+        "date": "2026-06-12",
+        "ma21": 1861.0119,
         "above_ma21": false,
-        "ma50": 2107.4594,
+        "ma50": 2094.855,
         "above_ma50": false,
-        "ma200": 2428.1934,
+        "ma200": 2421.9267,
         "above_ma200": false
       }
     },
     "SOLUSDT": {
-      "current_price": 65.18,
+      "current_price": 67.15,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 130.58,
-          "high": 139.87,
-          "low": 128.44,
-          "close": 138.44,
-          "volume": 4744857.046,
-          "quote_volume": 632869856.70086,
-          "trades": 2659938,
-          "ma21": 145.7386,
-          "ma50": 174.121,
-          "ma200": 179.5701,
-          "volume_percentile": 34.0
-        },
         {
           "date": "2025-11-25",
           "open": 138.43,
@@ -36702,31 +36688,33 @@
         {
           "date": "2026-06-11",
           "open": 63.19,
-          "high": 65.48,
+          "high": 67.42,
           "low": 63.19,
-          "close": 65.19,
-          "volume": 667098.218,
-          "quote_volume": 43091374.80757,
-          "trades": 192936,
-          "ma21": 75.4505,
-          "ma50": 82.5116,
-          "ma200": 100.7726,
+          "close": 66.93,
+          "volume": 2881561.031,
+          "quote_volume": 189005038.43311,
+          "trades": 819698,
+          "ma21": 75.5333,
+          "ma50": 82.5464,
+          "ma200": 100.7813,
+          "volume_percentile": 42.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 66.93,
+          "high": 67.3,
+          "low": 66.42,
+          "close": 67.16,
+          "volume": 352523.348,
+          "quote_volume": 23591624.43124,
+          "trades": 84422,
+          "ma21": 74.7124,
+          "ma50": 82.1672,
+          "ma200": 100.4249,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 130.52,
-          "high": 139.78,
-          "low": 128.34,
-          "close": 138.38,
-          "volume": 31355300.56,
-          "quote_volume": 4171194858.37273,
-          "trades": 4056280,
-          "taker_buy_base_vol": 15703220.37,
-          "taker_buy_quote_vol": 2089650910.29757
-        },
         {
           "date": "2025-11-25",
           "open": 138.38,
@@ -39106,22 +39094,29 @@
         {
           "date": "2026-06-11",
           "open": 63.16,
-          "high": 65.45,
+          "high": 67.36,
           "low": 63.15,
-          "close": 65.15,
-          "volume": 5465529.65,
-          "quote_volume": 353010290.8916,
-          "trades": 361495,
-          "taker_buy_base_vol": 2795020.67,
-          "taker_buy_quote_vol": 180565043.829
+          "close": 66.88,
+          "volume": 24893264.53,
+          "quote_volume": 1632195435.2308,
+          "trades": 1619602,
+          "taker_buy_base_vol": 12747662.11,
+          "taker_buy_quote_vol": 836225921.9637
+        },
+        {
+          "date": "2026-06-12",
+          "open": 66.87,
+          "high": 67.26,
+          "low": 66.37,
+          "close": 67.12,
+          "volume": 2461221.94,
+          "quote_volume": 164571986.137,
+          "trades": 208337,
+          "taker_buy_base_vol": 1302252.76,
+          "taker_buy_quote_vol": 87094587.6421
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 11619010.89,
-          "open_interest_usdt": 1095091776.3825
-        },
         {
           "date": "2026-05-14",
           "open_interest": 10501780.3,
@@ -39266,16 +39261,14 @@
           "date": "2026-06-11",
           "open_interest": 9905655.12,
           "open_interest_usdt": 625729775.6387808
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 9776630.95,
+          "open_interest_usdt": 653861077.936
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 632869857.0,
-          "perp_vol_usdt": 4171194858.0,
-          "ratio": 0.152,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 409226323.0,
@@ -40664,46 +40657,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 43091375.0,
-          "perp_vol_usdt": 353010291.0,
-          "ratio": 0.122,
+          "spot_vol_usdt": 189005038.0,
+          "perp_vol_usdt": 1632195435.0,
+          "ratio": 0.116,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 23591624.0,
+          "perp_vol_usdt": 164571986.0,
+          "ratio": 0.143,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -10.17,
-        "trend_3d_pct": -3.93,
-        "latest_usdt": 625729776.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": 5.81,
+        "trend_3d_pct": 3.3,
+        "latest_usdt": 653861078.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 65.19,
-        "date": "2026-06-11",
-        "ma21": 75.4505,
+        "close": 67.16,
+        "date": "2026-06-12",
+        "ma21": 74.7124,
         "above_ma21": false,
-        "ma50": 82.5116,
+        "ma50": 82.1672,
         "above_ma50": false,
-        "ma200": 100.7726,
+        "ma200": 100.4249,
         "above_ma200": false
       }
     },
     "SUIUSDT": {
-      "current_price": 0.753,
+      "current_price": 0.7592,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 1.3684,
-          "high": 1.5672,
-          "low": 1.342,
-          "close": 1.5273,
-          "volume": 83470747.2,
-          "quote_volume": 120895365.54886,
-          "trades": 834407,
-          "ma21": 1.7909,
-          "ma50": 2.296,
-          "ma200": 3.1714,
-          "volume_percentile": 58.0
-        },
         {
           "date": "2025-11-25",
           "open": 1.5273,
@@ -43479,31 +43465,33 @@
         {
           "date": "2026-06-11",
           "open": 0.7266,
-          "high": 0.7617,
+          "high": 0.7699,
           "low": 0.7266,
-          "close": 0.753,
-          "volume": 7448991.2,
-          "quote_volume": 5548137.88631,
-          "trades": 56634,
-          "ma21": 0.8683,
+          "close": 0.7551,
+          "volume": 38617989.5,
+          "quote_volume": 29066590.04811,
+          "trades": 281940,
+          "ma21": 0.8684,
           "ma50": 0.9637,
           "ma200": 1.1623,
+          "volume_percentile": 28.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.755,
+          "high": 0.7615,
+          "low": 0.7476,
+          "close": 0.7592,
+          "volume": 4666134.5,
+          "quote_volume": 3525831.60564,
+          "trades": 33722,
+          "ma21": 0.8546,
+          "ma50": 0.96,
+          "ma200": 1.1585,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 1.3676,
-          "high": 1.5661,
-          "low": 1.3411,
-          "close": 1.5269,
-          "volume": 363681309.3,
-          "quote_volume": 523260474.4828,
-          "trades": 1774917,
-          "taker_buy_base_vol": 176618918.2,
-          "taker_buy_quote_vol": 254174569.72423
-        },
         {
           "date": "2025-11-25",
           "open": 1.5268,
@@ -45883,22 +45871,29 @@
         {
           "date": "2026-06-11",
           "open": 0.7261,
-          "high": 0.7618,
+          "high": 0.7698,
           "low": 0.7261,
-          "close": 0.7527,
-          "volume": 51132417.6,
-          "quote_volume": 38068548.56912,
-          "trades": 150821,
-          "taker_buy_base_vol": 27544081.9,
-          "taker_buy_quote_vol": 20523480.99671
+          "close": 0.7545,
+          "volume": 199731928.1,
+          "quote_volume": 150157108.25272,
+          "trades": 616962,
+          "taker_buy_base_vol": 103750855.7,
+          "taker_buy_quote_vol": 78024848.96183
+        },
+        {
+          "date": "2026-06-12",
+          "open": 0.7545,
+          "high": 0.7611,
+          "low": 0.747,
+          "close": 0.7588,
+          "volume": 24690173.0,
+          "quote_volume": 18633485.20206,
+          "trades": 87827,
+          "taker_buy_base_vol": 13378398.5,
+          "taker_buy_quote_vol": 10098593.4641
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 105711950.3,
-          "open_interest_usdt": 130839680.88631
-        },
         {
           "date": "2026-05-14",
           "open_interest": 101554669.8,
@@ -46043,16 +46038,14 @@
           "date": "2026-06-11",
           "open_interest": 92310446.6,
           "open_interest_usdt": 67042177.8944523
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 84496945.7,
+          "open_interest_usdt": 63752945.53065
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 120895366.0,
-          "perp_vol_usdt": 523260474.0,
-          "ratio": 0.231,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 109661115.0,
@@ -47441,46 +47434,39 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 5548138.0,
-          "perp_vol_usdt": 38068549.0,
-          "ratio": 0.146,
+          "spot_vol_usdt": 29066590.0,
+          "perp_vol_usdt": 150157108.0,
+          "ratio": 0.194,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 3525832.0,
+          "perp_vol_usdt": 18633485.0,
+          "ratio": 0.189,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -11.23,
-        "trend_3d_pct": -2.89,
-        "latest_usdt": 67042178.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": -6.44,
+        "trend_3d_pct": -2.72,
+        "latest_usdt": 63752946.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 0.753,
-        "date": "2026-06-11",
-        "ma21": 0.8683,
+        "close": 0.7592,
+        "date": "2026-06-12",
+        "ma21": 0.8546,
         "above_ma21": false,
-        "ma50": 0.9637,
+        "ma50": 0.96,
         "above_ma50": false,
-        "ma200": 1.1623,
+        "ma200": 1.1585,
         "above_ma200": false
       }
     },
     "XRPUSDT": {
-      "current_price": 1.118,
+      "current_price": 1.1482,
       "spot_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 2.0491,
-          "high": 2.2868,
-          "low": 2.0238,
-          "close": 2.2276,
-          "volume": 209507520.1,
-          "quote_volume": 449036243.07978,
-          "trades": 2049558,
-          "ma21": 2.2249,
-          "ma50": 2.3985,
-          "ma200": 2.6269,
-          "volume_percentile": 68.0
-        },
         {
           "date": "2025-11-25",
           "open": 2.2276,
@@ -50256,31 +50242,33 @@
         {
           "date": "2026-06-11",
           "open": 1.0971,
-          "high": 1.1236,
+          "high": 1.15,
           "low": 1.0965,
-          "close": 1.118,
-          "volume": 21244706.4,
-          "quote_volume": 23627833.30939,
-          "trades": 162655,
-          "ma21": 1.2427,
-          "ma50": 1.3401,
-          "ma200": 1.5941,
+          "close": 1.1428,
+          "volume": 94224282.2,
+          "quote_volume": 105695778.63498,
+          "trades": 755083,
+          "ma21": 1.2439,
+          "ma50": 1.3406,
+          "ma200": 1.5942,
+          "volume_percentile": 42.0
+        },
+        {
+          "date": "2026-06-12",
+          "open": 1.1427,
+          "high": 1.1509,
+          "low": 1.1359,
+          "close": 1.1482,
+          "volume": 10559030.4,
+          "quote_volume": 12075261.98334,
+          "trades": 92843,
+          "ma21": 1.235,
+          "ma50": 1.3348,
+          "ma200": 1.5888,
           "volume_percentile": 0.0
         }
       ],
       "perp_candles": [
-        {
-          "date": "2025-11-24",
-          "open": 2.0477,
-          "high": 2.285,
-          "low": 2.0226,
-          "close": 2.227,
-          "volume": 1087812103.6,
-          "quote_volume": 2319973319.56834,
-          "trades": 3558954,
-          "taker_buy_base_vol": 550281520.5,
-          "taker_buy_quote_vol": 1174448680.9125
-        },
         {
           "date": "2025-11-25",
           "open": 2.227,
@@ -52660,22 +52648,29 @@
         {
           "date": "2026-06-11",
           "open": 1.0962,
-          "high": 1.1235,
+          "high": 1.1496,
           "low": 1.0958,
-          "close": 1.1175,
-          "volume": 110369967.7,
-          "quote_volume": 122642115.72518,
-          "trades": 255244,
-          "taker_buy_base_vol": 53777249.8,
-          "taker_buy_quote_vol": 59746079.66222
+          "close": 1.142,
+          "volume": 515690301.2,
+          "quote_volume": 578647260.0539,
+          "trades": 1263906,
+          "taker_buy_base_vol": 255698847.1,
+          "taker_buy_quote_vol": 286980457.83248
+        },
+        {
+          "date": "2026-06-12",
+          "open": 1.142,
+          "high": 1.1506,
+          "low": 1.1351,
+          "close": 1.1473,
+          "volume": 56109682.5,
+          "quote_volume": 64147437.2524,
+          "trades": 168970,
+          "taker_buy_base_vol": 28959311.6,
+          "taker_buy_quote_vol": 33108111.59642
         }
       ],
       "oi_history": [
-        {
-          "date": "2026-05-13",
-          "open_interest": 293604588.9,
-          "open_interest_usdt": 421737562.8614054
-        },
         {
           "date": "2026-05-14",
           "open_interest": 299867881.0,
@@ -52820,16 +52815,14 @@
           "date": "2026-06-11",
           "open_interest": 319989427.3,
           "open_interest_usdt": 350834606.5512443
+        },
+        {
+          "date": "2026-06-12",
+          "open_interest": 312863080.5,
+          "open_interest_usdt": 357258351.62295
         }
       ],
       "spot_perp_ratio": [
-        {
-          "date": "2025-11-24",
-          "spot_vol_usdt": 449036243.0,
-          "perp_vol_usdt": 2319973320.0,
-          "ratio": 0.194,
-          "interpretation": "PERP_DOMINANT"
-        },
         {
           "date": "2025-11-25",
           "spot_vol_usdt": 341969966.0,
@@ -54218,26 +54211,33 @@
         },
         {
           "date": "2026-06-11",
-          "spot_vol_usdt": 23627833.0,
-          "perp_vol_usdt": 122642116.0,
-          "ratio": 0.193,
+          "spot_vol_usdt": 105695779.0,
+          "perp_vol_usdt": 578647260.0,
+          "ratio": 0.183,
+          "interpretation": "PERP_DOMINANT"
+        },
+        {
+          "date": "2026-06-12",
+          "spot_vol_usdt": 12075262.0,
+          "perp_vol_usdt": 64147437.0,
+          "ratio": 0.188,
           "interpretation": "PERP_DOMINANT"
         }
       ],
       "oi_trend": {
-        "trend_7d_pct": -3.53,
-        "trend_3d_pct": -7.57,
-        "latest_usdt": 350834607.0,
-        "latest_date": "2026-06-11"
+        "trend_7d_pct": 4.53,
+        "trend_3d_pct": -0.96,
+        "latest_usdt": 357258352.0,
+        "latest_date": "2026-06-12"
       },
       "ma_filter": {
-        "close": 1.118,
-        "date": "2026-06-11",
-        "ma21": 1.2427,
+        "close": 1.1482,
+        "date": "2026-06-12",
+        "ma21": 1.235,
         "above_ma21": false,
-        "ma50": 1.3401,
+        "ma50": 1.3348,
         "above_ma50": false,
-        "ma200": 1.5941,
+        "ma200": 1.5888,
         "above_ma200": false
       }
     }
